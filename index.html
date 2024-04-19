@@ -33,10 +33,10 @@
       <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
       <hr>
 
-      <label for="City">Choose a city:</label>
-      <input list="City" id="City-choice" name="City-choice" />
+      <label for="City-choice">Choose a city</label>
+      <input list="City-Names" id="City-choice" name="City-choice" />
 
-      <datalist id="City">
+      <datalist id="City-Names">
         <option value="Seoul"></option>
         <option value="LA"></option>
         <option value="Houston"></option>
@@ -44,7 +44,7 @@
         <option value="DC"></option>
       </datalist>
       <hr>
-      <label for="pet-select">Choose a language:</label>
+      <label for="lang-select">Choose a language</label>
 
       <select name="langs" id="lang-select">
         <option value="">--Please choose an option--</option>
@@ -67,7 +67,7 @@
       </nav>
     </header>
     <h4>Tour Poster Image:</h4>
-    <img src = "https://pbs.twimg.com/media/GIXWIY9bEAAFFsN?format=jpg&name=large", width = "400" class = "center">
+    <img src = "actpromise.jpg" alt="tourposter" width = "400" class = "center">
     <main>
       <section>
         <h3 id = "Intro">Intro</h3>
@@ -77,45 +77,45 @@
         <ol>
           <li>Deja Vu</li>
           <li>0x1=Lovesong</li>
-          <h5>MENT</h5>
+          <li><b>MENT</b></li>
           <li>Growing Pain</li>
           <li>Frost</li>
           <li>Lo$er=LoVer</li>
-          <h5>VCR</h5>
+          <li><b>VCR</b></li>
           <li>Dear Sputnik</li>
           <li>Quarter Life</li>
-          <h5>VCR</h5>
+          <li><b>VCR</b></li>
         </ol>
         
       </section>
       <hr>
       <section>
         <h3 id = "Main">Main</h3>
+        <p>The VCR will bring the mood up, so while the sun is setting, play more light hearted songs. </p>
         <ol>
-          <p>The VCR will bring the mood up, so while the sun is setting, play more light hearted songs. </p>
           <li>Blue Hour</li>
           <li>Can't We Just Leave the Monster Alive</li>
           <li>What if I had Been that Puma</li>
-          <h5>Walk around for ^ and Ghosting</h5>
+          <li><b>Walk around for ^ and Ghosting</b></li>
           <li>Ghosting</li>
-          <h5>MENT and teach HEA choreo</h5>
+          <li><b>MENT and teach HEA choreo</b></li>
           <li>Happily Ever After</li>
           <li>No Rules</li>
           <li>I'll See You There Tomorrow</li>
-          <h5>MENT and then VCR</h5>
+          <li><b>MENT and then VCR</b></li>
           <li>Blue Orangeade</li>
           <li>Poppin Star</li>
-          <h5>MENT and play some audience games</h5>
+          <li><b>MENT and play some audience games</b></li>
           <li>Dreamer</li>
           <li>Magic Island</li>
           <li>20cm</li>
-          <h5>VCR</h5>
+          <li><b>VCR</b></li>
           <li>The Killa</li>
           <li>Tinnitus</li>
           <li>Farewell Neverland</li>
           <li>Sugar Rush Ride</li>
           <li>Chasing that Feeling</li>
-          <h5>MENT and VCR</h5>
+          <li><b>MENT and VCR</b></li>
         </ol>
       </section>
       <hr>
@@ -125,12 +125,12 @@
         <ol>
           <li>Skipping Stones</li>
           <li>Maze in the Mirror</li>
-          <h5>VCR</h5>
+          <li><b>VCR</b></li>
           <li>Moa Diary</li>
           <li>Blue Spring</li>
-          <h5>MENT</h5>
+          <li><b>MENT</b></li>
           <li>Miracle</li>
-          <h5>Closing Ment and <i>Our Summer</i> plays <em>goodbye</em> with confetti falling.</h5>
+          <li><b>Closing Ment and <i>Our Summer</i> plays <em>goodbye</em> with confetti falling.</b></li>
         </ol>
       </section>
     </main>
@@ -147,14 +147,14 @@
         <fieldset>
           <legend>Choose a song to add</legend>
       
-          <input type="radio" id="Ring" name="J" value="K" />
-          <label for="Ring">Ring</label><br />
+          <input type="radio" id="Ring" name="song" value="RING" />
+          <label for="Ring">Ring</label><br>
       
-          <input type="radio" id="Blue Orangeade" name="B" value="S" />
-          <label for="Blue Orangeade">Blue Orangeade</label><br />
+          <input type="radio" id="BlueOrangeade" name="song" value="BLUEO"/>
+          <label for="BlueOrangeade">Blue Orangeade</label><br>
       
-          <input type="radio" id="Valley of Lies" name="c" value="M" />
-          <label for="Valley of Lies">Valley of Lies</label>
+          <input type="radio" id="ValleyOfLies" name="song" value="VOL" />
+          <label for="ValleyOfLies">Valley of Lies</label>
         </fieldset>
       </form>
     </section>
@@ -163,14 +163,14 @@
       <h3 id = "Rehearsal">Rehearsal</h3>
       <h5>I'll See You There Tomorrow dance practice:</h5>
       <video controls width = "250">
-        <source src="\Users\celes\Desktop\CSE110-Project\isytt.mov" 
-        type="video/mov">
+        <source src="isytt.mp4" type="video/mp4">
       </video>
+      <br>
       <button class="favorite styled" type="button">Click if you love TXT</button>
       <h5>Sweat vocal rehearsal:</h5>
       <figure>
       
-        <audio controls src = "C:\Users\celes\Desktop\song\sweat- txt.mp3"></audio>
+        <audio controls src="sweat-txt.mp3"></audio>
       </figure>
     </section>
     <details>
@@ -181,12 +181,20 @@
       <summary>Setlist Playlist</summary>
       <a href = "https://open.spotify.com/playlist/3tRtdpalK0M0ctKh5oo2Ld?si=7814bccc2f1f4406">Setlist Playlist</a>
     </details>
+    <hr>
     <footer>
+      <label for="story">Tell us a song you want to see:</label>
+      <br>
+
+      <textarea id="story" name="story" rows="5" cols="33">
+      I want to add...
+      </textarea>
+      <br>
       <p>To see live setlist updates:</p>
-      <form action="" method="get" class="form-example">
+      
         <div class="form-example">
           <label for="name">Enter your name: </label>
-          <input type="text" name="name" id="name" required />
+          <input type="text" name="Name" id="Name" required />
         </div>
         <div class="form-example">
           <label for="email">Enter your email: </label>
@@ -195,12 +203,18 @@
         <div class="form-example">
           <input type="submit" value="Submit" />
         </div>
-      </form>
-      <label for="story">Tell us a song you want to see:</label>
+      <fieldset>
+        <legend>Agree to keep this confidential until the Seoul concert:</legend>
+        <div>
+          <input type="checkbox" id="yes" name="yes" checked />
+          <label for="yes">Agree</label>
+        </div>
+      </fieldset>
+      <label for="start">Start date:</label>
+    
+    <input type="date" id="start" name="today" value="2024-04-10" min="2024-01-01" max="2024-12-31" />
 
-    <textarea id="story" name="story" rows="5" cols="33">
-    I want to add...
-    </textarea>
+
       <h5>© 2024 BIGHIT ENT </h5>
     </footer>
   </body>
