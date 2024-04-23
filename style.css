@@ -27,7 +27,7 @@ p {
     --main-color: color(display-p3 0.7 0.5 0.4); 
 }
 
-/*olor-mix()*/
+/*color-mix()*/
 header {
     background-color: color-mix(in srgb, rgba(255, 248, 240, 1) 50%, white 50%);
 }
@@ -35,4 +35,40 @@ header {
 /*fallback variable for background color*/
 :root {
     --fallback-color: grey; 
+}
+
+/*untis*/
+:root {
+    --relative-unit: 1em; /* relative unit */
+    --absolute-unit: 1px; /* absolute unit */
+}
+
+/* em */
+p {
+    margin-left: var(--relative-unit);
+}
+
+/* vh */
+section {
+    padding: 2vh;
+}
+
+/*  %  */
+footer {
+    width: 100%;
+}
+
+/* px */
+button {
+    padding: 10px;
+}
+
+/*  cm */
+img {
+    width: 10cm;
+}
+
+/*mm  */
+aside {
+    border-width: 1mm;
 }
