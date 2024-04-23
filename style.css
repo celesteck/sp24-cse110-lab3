@@ -1,15 +1,33 @@
-/*color bullet point*/
-
-:root {
-    --main-bg-color: #f0f0f0;
-    --accent-color: #ff4500;
-    --text-color: #333;
+body {
+    background-color: rgb(255, 248, 240); 
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--text-color, black);
-    background-color: var(--main-bg-color);
-    margin: 0;
-    padding: 0;
+/* RGBA */
+h1 {
+    color: rgba(75, 75, 75, 0.9);
+}
+
+/* Hex */
+h2 {
+    color: #F0E8E0; 
+}
+
+/* HSL */
+h3 {
+    color: hsl(30, 100%, 80%);
+}
+
+/*Color Name */
+p {
+    color: grey; 
+}
+
+/*color() for Wider-Gamut Color */
+:root {
+    --main-color: color(display-p3 0.7 0.5 0.4); 
+}
+
+/*olor-mix()*/
+header {
+    background-color: color-mix(in srgb, rgba(255, 248, 240, 1) 50%, white 50%);
 }
