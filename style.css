@@ -1,19 +1,7 @@
 /*color bullet point*/
 
 :root {
-    --main-bg-color: #d3d3d3; /* variable with fallback */
+    --main-bg-color: #f0f0f0;
+    --accent-color: #ff4500;
     --text-color: #333;
-}
-
-body {
-    background-color: var(--main-bg-color, grey); /*variable with fallback */
-    color: var(--text-color);
-}
-
-h1 {
-    color: rgb(0, 0, 255);
-}
-
-h2 {
-    color: hsla(10, 20%, 40%, 0.3);
 }
