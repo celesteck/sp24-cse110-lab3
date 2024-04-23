@@ -103,10 +103,10 @@ footer {
     border-bottom-style: solid;
     border-left-style: solid;
     
-    border-top-width: 1px;
-    border-right-width: 2px;
-    border-bottom-width: 1px;
-    border-left-width: 2px;
+    border-top-width: 4px;
+    border-right-width: 8px;
+    border-bottom-width: 4px;
+    border-left-width: 8px;
     
     border-top-color: grey;
     border-right-color: grey;
@@ -115,9 +115,23 @@ footer {
 }
 /* short*/
 footer {
-    border: 1px solid grey;
+    border: 4px solid grey;
 }
 /* radius */
 input {
     border-radius: 5px;
+}
+
+/*text styling*/
+/*color */
+p {
+    color: grey;
+}
+/*decoration */
+a {
+    text-decoration: none;
+}
+/* align */
+nav {
+    text-align: center;
 }
