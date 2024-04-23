@@ -1,1 +1,20 @@
-/*this is my first time using css*/
+/*color bullet point*/
+background: 	rgb(211, 211, 211)
+h1{
+  color: #b95b31
+}
+p{
+  color: black
+}
+
+h2{
+  color: hsl(10, 20%, 40%)
+}
+
+div {
+  color-mix(in oklch, oklch(none 0.2 10), oklch(60% none 20))
+}
+
+h4{
+  color(display-p3 1 0.5 0)
+}
