@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 248, 240); 
+    background-color: rgb(255, 248, 240); /*background updated in color*/
 }
 
 /* RGBA */
@@ -30,4 +30,9 @@ p {
 /*olor-mix()*/
 header {
     background-color: color-mix(in srgb, rgba(255, 248, 240, 1) 50%, white 50%);
+}
+
+/*fallback variable for background color*/
+:root {
+    --fallback-color: grey; 
 }
