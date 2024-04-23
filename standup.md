@@ -19,42 +19,42 @@
 
 ## Member Updates:
 
-### **Soobin:** ###
+#### **Soobin:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### **Yeonjun:** ###
+#### **Yeonjun:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### **Beomgyu:** ###
+#### **Beomgyu:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### **Taehyun:** ###
+#### **Taehyun:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### **Huening Kai:** ###
+#### **Huening Kai:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### **Additonal PD's:** ###
+#### **Additonal PD's:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
@@ -74,6 +74,6 @@
 - **Kai** will...
 - **PD** will...
 
-### General summary:
+#### General summary:
 
 
