@@ -1,7 +1,7 @@
 # Act: Promise **Stand up** Meeting Notes
 ## Date and Time
-** Date: ** YYYY-MM-DD
-** Time: ** HH:MM AM/PM
+**Date:** YYYY-MM-DD
+**Time:** HH:MM AM/PM
 
 ## Attendees:
 - Choi Soobin
@@ -19,42 +19,42 @@
 
 ## Member Updates:
 
-### ** Soobin: ** ###
+### **Soobin:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### ** Yeonjun: ** ###
+### **Yeonjun:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### ** Beomgyu: ** ###
+### **Beomgyu:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### ** Taehyun: ** ###
+### **Taehyun:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### ** Huening Kai: ** ###
+### **Huening Kai:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
 
 - Questions:
 
-### ** Additonal PD's: ** ###
+### **Additonal PD's:** ###
 - Updates on to do's from last meeting:
 
 - To be done before next meeting:
@@ -67,12 +67,12 @@
 - **member** commented:
 
 ## Action Items/ Summary:
-- ** Soobin ** willl...
-- ** Yeonjun ** will...
-- ** Beomgyu ** will...
-- ** Taehyun ** will...
-- ** Kai ** will...
-- ** PD ** will...
+- **Soobin** willl...
+- **Yeonjun** will...
+- **Beomgyu** will...
+- **Taehyun** will...
+- **Kai** will...
+- **PD** will...
 
 ### General summary:
 
