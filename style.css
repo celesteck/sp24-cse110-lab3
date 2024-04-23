@@ -1,20 +1,19 @@
 /*color bullet point*/
-background: 	rgb(211, 211, 211)
-h1{
-  color: #b95b31
-}
-p{
-  color: black
+
+:root {
+    --main-bg-color: #d3d3d3; /* CSS variable with fallback */
+    --text-color: #333;
 }
 
-h2{
-  color: hsl(10, 20%, 40%)
+body {
+    background-color: var(--main-bg-color, grey); /* Using CSS variable with fallback */
+    color: var(--text-color);
 }
 
-div {
-  color-mix(in oklch, oklch(none 0.2 10), oklch(60% none 20))
+h1 {
+    color: rgb(0, 0, 255); /* Example using RGB */
 }
 
-h4{
-  color(display-p3 1 0.5 0)
+h2 {
+    color: hsla(10, 20%, 40%, 0.3); /* Example using HSLA */
 }
