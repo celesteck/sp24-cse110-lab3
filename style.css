@@ -176,8 +176,9 @@ button.hovered {
 button:active {
     background-color: #eaeaea;
 }
-
-
+input[type="submit"] {
+    background-color: #ddd;
+}
 /*flexbox*/
 nav ul {
     display: flex;
