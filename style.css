@@ -29,8 +29,7 @@ section > p {
 
 /*color-mix()*/
 #header {
-    background-color: color-mix(in lch, plum 40%, pink);
-    value: color (display-p3 1 0.5 0)
+    background-color: color-mix(in srgb, #34c9eb, white);
 }
 
 /*fallback variable for background color*/
