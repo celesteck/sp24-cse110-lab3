@@ -133,7 +133,7 @@ a {
 }
 /* align */
 nav {
-    text-align: center;
+    text-align: left;
 }
 
 /*sizing*/
@@ -142,18 +142,35 @@ img {
     min-width:50%;
     height: auto;
     display: block;
-    margin: 10px;
+    margin: 1px;
 }
 
 /*display*/
 
-/* Using block */
+/* block */
 div {
     display: block;
 }
 
-
-/* Using inline */
+/* inline */
 a {
     display: inline;
+}
+/* position */
+.default-position {
+    position: static;
+}
+
+.relative-position {
+    position: relative;
+}
+
+/* hover */
+button:hover {
+    background-color: #f2f2f2;
+}
+
+/* active */
+button:active {
+    background-color: #eaeaea;
 }
