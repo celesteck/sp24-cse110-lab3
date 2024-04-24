@@ -183,14 +183,14 @@ input[type="submit"] {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    justif-content: space-between;
+    justify-content: space-around;
 }
 
 /*gird*/
 main{
     display: grid;
-    grid-template-comluns: minmax(10px, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: minmax(10px, 1fr);
+    gap: 10px;
 }
 
 /*responsiveness*/
