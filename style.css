@@ -174,3 +174,36 @@ button:hover {
 button:active {
     background-color: #eaeaea;
 }
+
+/*flexbox*/
+nav ul {
+    display: flex;
+    justif-content: center;
+    align-item: center;
+    gap: 10px;
+}
+
+/*gird*/
+main{
+    display: grid;
+    grid-template-comluns: minmax(10px, 1fr);
+    grid-gap: 10px;
+}
+
+/*responsiveness*/
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    main {
+        grid-template-columns: 1fr;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+/*font*/
+body {
+    font-family: 'Lato', sans-serif;
+}
