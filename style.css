@@ -8,7 +8,7 @@ h1 {
 }
 
 /* Hex */
-h2 {
+h2 ~ p{
     color: #F0E8E0; 
 }
 
@@ -18,7 +18,7 @@ h3,h4,h5 {
 }
 
 /*Color Name */
-p {
+section > p {
     color: grey; 
 }
 
@@ -44,7 +44,7 @@ p {
 }
 
 /* em */
-p {
+p + ol {
     margin-left: var(--relative-unit);
 }
 
