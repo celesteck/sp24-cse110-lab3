@@ -13,7 +13,7 @@ h2 {
 }
 
 /* HSL */
-h3 {
+h3,h4,h5 {
     color: hsl(30, 100%, 80%);
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 /*color-mix()*/
-header {
+#header {
     background-color: color-mix(in srgb, rgba(255, 248, 240, 1) 50%, white 50%);
 }
 
@@ -169,18 +169,20 @@ a {
 button:hover {
     background-color: #f2f2f2;
 }
-
-/* active */
+button.hovered {
+    cursor: pointer;
+    margin-top: 15px;
+}
 button:active {
     background-color: #eaeaea;
 }
 
+
 /*flexbox*/
 nav ul {
     display: flex;
-    justif-content: center;
-    align-item: center;
-    gap: 10px;
+    flex-wrap: wrap;
+    justif-content: space-between;
 }
 
 /*gird*/
@@ -192,7 +194,7 @@ main{
 
 /*responsiveness*/
 @media (max-width: 768px) {
-    nav ul {
+    nav ul li a{
         flex-direction: column;
     }
     main {
@@ -201,6 +203,11 @@ main{
     img {
         width: 100%;
     }
+}
+
+/*has*/
+h3: has(+ol){
+    color: brown;
 }
 
 /*font*/
